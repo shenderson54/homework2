@@ -1,0 +1,51 @@
+html { 
+    background: url(assets/skullbackground.jpg) no-repeat 
+    center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #f2f2f2;
+    height: 80px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/*ul, li {
+    list-style-type: none;
+    font-size:15px;
+}*/
+
+a {
+    text-decoration: none;
+    display: flex;
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 15px;
+}
+
+.container{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 5px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    font-weight: 900;
+    }
